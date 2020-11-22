@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="90b06842-4d6f-42b1-acd1-eae8cad9098a" name="Default Changelist" comment="" />
+    <list default="true" id="eb018e0b-9c35-4ff4-902e-402ba8e966c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CMP211.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CMP211.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,9 +152,19 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel-frontend-presets/tailwindcss" />
       <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1k15T0YI10mi4OT1KVtcsgzWbd8" />
+  <component name="ProjectId" id="1k15TrABxxrUOTyiu5Dvs7tVqlI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -132,72 +173,71 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\PHP\CMP211\resources\views\components" />
-    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="php artisan make;component backgroundsvg --inline" />
-      <command value="composer require blade-ui-kit/blade-icons" />
-      <command value="php artisan make;component workingfromhomesvg --inline" />
-      <command value="php artisan make:component sofasvg --inline" />
-      <command value="php artisan make:controller order" />
+      <command value="php artisan make:model Product -m" />
+      <command value="php artisan migrate" />
+      <command value="php artisan make:seed ProductsSeeder" />
+      <command value="php artisan db:seed --class=ProductsSeeder" />
+      <command value="php artisan make:controller ProductsController" />
+      <command value="php artisan serve" />
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90b06842-4d6f-42b1-acd1-eae8cad9098a" name="Default Changelist" comment="" />
-      <created>1604855262567</created>
+      <changelist id="eb018e0b-9c35-4ff4-902e-402ba8e966c4" name="Default Changelist" comment="" />
+      <created>1604855270977</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604855262567</updated>
-      <workItem from="1604855263861" duration="6934000" />
+      <updated>1604855270977</updated>
+      <workItem from="1604855274133" duration="598000" />
+      <workItem from="1605522218788" duration="3554000" />
+      <workItem from="1605525789664" duration="3736000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="47" key="GridCell.Tab.0.bottom" timestamp="1604862011143">
+    <state width="2517" height="2" key="GridCell.Tab.0.bottom" timestamp="1605554766096">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="47" key="GridCell.Tab.0.bottom/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604862011143" />
-    <state width="2517" height="47" key="GridCell.Tab.0.center" timestamp="1604862011143">
+    <state width="2517" height="2" key="GridCell.Tab.0.bottom/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1605554766096" />
+    <state width="2517" height="2" key="GridCell.Tab.0.center" timestamp="1605554766095">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="47" key="GridCell.Tab.0.center/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604862011143" />
-    <state width="2517" height="47" key="GridCell.Tab.0.left" timestamp="1604862011143">
+    <state width="2517" height="2" key="GridCell.Tab.0.center/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1605554766095" />
+    <state width="2517" height="2" key="GridCell.Tab.0.left" timestamp="1605554766095">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="47" key="GridCell.Tab.0.left/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604862011143" />
-    <state width="2517" height="47" key="GridCell.Tab.0.right" timestamp="1604862011143">
+    <state width="2517" height="2" key="GridCell.Tab.0.left/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1605554766095" />
+    <state width="2517" height="2" key="GridCell.Tab.0.right" timestamp="1605554766095">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2517" height="47" key="GridCell.Tab.0.right/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604862011143" />
-    <state x="781" y="169" key="SettingsEditor" timestamp="1604858920681">
+    <state width="2517" height="2" key="GridCell.Tab.0.right/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1605554766095" />
+    <state x="936" y="243" width="672" height="677" key="run.anything.popup" timestamp="1605525846086">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="781" y="169" key="SettingsEditor/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604858920681" />
-    <state x="936" y="243" width="672" height="677" key="run.anything.popup" timestamp="1604862010999">
+    <state x="936" y="243" width="672" height="677" key="run.anything.popup/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1605525846086" />
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605526204501">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="936" y="243" width="672" height="677" key="run.anything.popup/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604862010999" />
-    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604862025229">
-      <screen x="0" y="0" width="2560" height="1050" />
-    </state>
-    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1604862025229" />
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/-1920.0.1920.1080@0.0.2560.1050" timestamp="1605526204501" />
   </component>
 </project>
