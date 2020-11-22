@@ -1,0 +1,27 @@
+version: '3.2'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: db
+    restart: always
+    ports:
+      - 3306
+    environment:
+      MYSQL_ROOT_PASSWORD: Password99!
+    volumes:
+      - cmp211data:/var/lib/mysql
+
+  app:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - 5555:80
+    environment:
+      PMA_HOST: db
+
+volumes:
+  cmp211data:
