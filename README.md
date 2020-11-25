@@ -1,5 +1,5 @@
 #Starting the DB: 
-docker-compose -f db.yml up
-Visit localhost:5555 for adminer
+docker-compose up
+Visit localhost:5555 for php my admin
 #Starting dev environment
 php artisan serve
